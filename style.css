@@ -1,0 +1,142 @@
+body {
+    font-family: "Noto Sans", serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #c99fef;
+    color: #9872bb;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    background: #c99fef;
+    color: #9872bb;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    transition: color 0.5s ease;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #9872bb;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #7f5f9c;
+}
+
+.section {
+    padding: 40px 0;
+    background: #DEBBFF;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(188, 44, 255, 0.1);
+    text-align: justify
+}
+
+.section h2 {
+    color: #9872bb;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section ul li {
+    background: #e2c4ff;
+    margin: 10px 0;
+    padding: 15px;
+    border-left: 5px solid #7f5f9c;
+    font-size: 1rem;
+}
+
+.section ul li a {
+    color: #9872bb;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section ul li a:hover {
+    color: #7f5f9c;
+}
+
+.boldtext {
+    font-weight: bold;
+}
+
+footer {
+    background: #c99fef;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer nav ul li {
+    margin: 0;
+}
+
+footer nav ul li a {
+    color: #9872bb;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer nav ul li a:hover {
+    color: #7f5f9c;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
