@@ -47,6 +47,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #7f5f9c;
+    transform: translateY(-5px);
 }
 
 .section {
@@ -132,6 +133,7 @@ footer nav ul li a {
 
 footer nav ul li a:hover {
     color: #7f5f9c;
+    transform: translateY(-5px);
 }
 
 footer p {
