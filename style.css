@@ -47,7 +47,7 @@ nav ul li a {
 
 nav ul li a:hover {
     color: #7f5f9c;
-    transform: translateY(-5px);
+    animation: bounce 1s;
 }
 
 .section {
@@ -133,7 +133,7 @@ footer nav ul li a {
 
 footer nav ul li a:hover {
     color: #7f5f9c;
-    transform: translateY(-5px);
+    animation: bounce 1s;
 }
 
 footer p {
@@ -142,3 +142,14 @@ footer p {
     opacity: 0.8;
 }
 
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  80% {
+    transform: translateY(-10px);
+  }
+}
